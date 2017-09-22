@@ -14,6 +14,8 @@
 		EA4BF2851F75B2FA00C50A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4BF2831F75B2FA00C50A26 /* LaunchScreen.storyboard */; };
 		EA4BF2901F75B2FA00C50A26 /* DragImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BF28F1F75B2FA00C50A26 /* DragImageViewTests.swift */; };
 		EA4BF29B1F75B2FA00C50A26 /* DragImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BF29A1F75B2FA00C50A26 /* DragImageViewUITests.swift */; };
+		EACDCFA41F75CACA0031E2BC /* Deadhead_Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = EADBE9141F75C9A4007B4846 /* Deadhead_Script.otf */; };
+		EACDCFA51F75CACD0031E2BC /* Raleway-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EADC05701F75B3DA00B3100B /* Raleway-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		EA4BF2961F75B2FA00C50A26 /* DragImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4BF29A1F75B2FA00C50A26 /* DragImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragImageViewUITests.swift; sourceTree = "<group>"; };
 		EA4BF29C1F75B2FA00C50A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADBE9141F75C9A4007B4846 /* Deadhead_Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Deadhead_Script.otf; sourceTree = "<group>"; };
 		EADC05701F75B3DA00B3100B /* Raleway-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				EADC05701F75B3DA00B3100B /* Raleway-Regular.otf */,
+				EADBE9141F75C9A4007B4846 /* Deadhead_Script.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -254,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA4BF2851F75B2FA00C50A26 /* LaunchScreen.storyboard in Resources */,
+				EACDCFA51F75CACD0031E2BC /* Raleway-Regular.otf in Resources */,
 				EA4BF2821F75B2FA00C50A26 /* Assets.xcassets in Resources */,
+				EACDCFA41F75CACA0031E2BC /* Deadhead_Script.otf in Resources */,
 				EA4BF2801F75B2FA00C50A26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 45J9WDN6PB;
 				INFOPLIST_FILE = DragImageView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VFS.DragImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 45J9WDN6PB;
 				INFOPLIST_FILE = DragImageView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VFS.DragImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

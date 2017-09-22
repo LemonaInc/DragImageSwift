@@ -9,8 +9,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Raleway-Regular.otf">
-            <string>Raleway-Regular</string>
+        <array key="Deadhead_Script.otf">
+            <string>DeadheadScript</string>
         </array>
     </customFonts>
     <scenes>
@@ -26,19 +26,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purpleGradient" translatesAutoresizingMaskIntoConstraints="NO" id="g50-jS-iL8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diego-ph-221236" translatesAutoresizingMaskIntoConstraints="NO" id="g50-jS-iL8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2k-dy-AKZ">
                                 <rect key="frame" x="-3" y="301.5" width="381" height="64"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.99427074193954468" green="0.36649852991104126" blue="0.39495891332626343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="381" id="2Fk-Tl-L0s"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="dcy-Ia-aFn"/>
                                     <constraint firstAttribute="height" constant="64" id="swB-OG-pOj"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="381" id="uf3-Gu-Eoe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="DeadheadScript" family="Deadhead Script" pointSize="40"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -51,23 +51,23 @@
                                     <segue destination="HCg-ZO-noF" kind="show" id="l2O-d4-DC8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag Image View " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZy-Ov-MlY">
-                                <rect key="frame" x="67" y="98" width="241" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Drag Image View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZy-Ov-MlY">
+                                <rect key="frame" x="37.5" y="98" width="300" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="241" id="KAq-RT-bjA"/>
+                                    <constraint firstAttribute="width" constant="300" id="KAq-RT-bjA"/>
                                     <constraint firstAttribute="height" constant="72" id="lNf-7w-BTe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="DeadheadScript" family="Deadhead Script" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Jaxon Stevens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isE-9e-ACJ">
-                                <rect key="frame" x="103.5" y="197.5" width="168" height="72"/>
+                                <rect key="frame" x="97.5" y="197.5" width="180" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="168" id="VRV-is-D9x"/>
+                                    <constraint firstAttribute="width" constant="180" id="VRV-is-D9x"/>
                                     <constraint firstAttribute="height" constant="72" id="aez-Nv-ny7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DeadheadScript" family="Deadhead Script" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -79,10 +79,10 @@
                             <constraint firstItem="g50-jS-iL8" firstAttribute="width" secondItem="NYV-sr-YQs" secondAttribute="width" id="7Fs-U1-EnN"/>
                             <constraint firstItem="uZy-Ov-MlY" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" constant="-200" id="BCD-VL-Qew"/>
                             <constraint firstItem="uZy-Ov-MlY" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="ESE-na-BVW"/>
-                            <constraint firstItem="isE-9e-ACJ" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="Ymv-9g-kay"/>
+                            <constraint firstItem="isE-9e-ACJ" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" constant="-100" id="J3Q-Os-77q"/>
+                            <constraint firstItem="isE-9e-ACJ" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="X5u-XX-Qhd"/>
                             <constraint firstItem="g50-jS-iL8" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" id="oe7-fD-Pwr"/>
                             <constraint firstItem="g50-jS-iL8" firstAttribute="height" secondItem="NYV-sr-YQs" secondAttribute="height" id="rwE-qk-3cb"/>
-                            <constraint firstItem="isE-9e-ACJ" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" constant="-100" id="wUX-D5-26V"/>
                             <constraint firstItem="d2k-dy-AKZ" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" id="wcf-3O-Ni1"/>
                         </constraints>
                     </view>
@@ -103,7 +103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purpleGradient" translatesAutoresizingMaskIntoConstraints="NO" id="2jx-rZ-4iK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diego-ph-221236" translatesAutoresizingMaskIntoConstraints="NO" id="2jx-rZ-4iK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Q-D1-MNF">
@@ -153,12 +153,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag an object to trash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S45-Fa-Ooe">
-                                <rect key="frame" x="79.5" y="97.5" width="216" height="72"/>
+                                <rect key="frame" x="67.5" y="97.5" width="240" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="gVi-gz-hR5"/>
-                                    <constraint firstAttribute="width" constant="216" id="rkb-2b-bX8"/>
+                                    <constraint firstAttribute="width" constant="240" id="rkb-2b-bX8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DeadheadScript" family="Deadhead Script" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -191,9 +191,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="diego-ph-221236" width="5184" height="3456"/>
         <image name="ic_cancel_white_48pt" width="48" height="48"/>
         <image name="ic_free_breakfast_white_48pt" width="48" height="48"/>
         <image name="ic_time_to_leave_white_48pt" width="48" height="48"/>
-        <image name="purpleGradient" width="1080" height="1080"/>
     </resources>
 </document>
