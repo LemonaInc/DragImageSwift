@@ -9,9 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-        </array>
         <array key="Raleway-Regular.otf">
             <string>Raleway-Regular</string>
         </array>
@@ -34,14 +31,14 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2k-dy-AKZ">
                                 <rect key="frame" x="-3" y="301.5" width="381" height="64"/>
-                                <color key="backgroundColor" red="0.99427074193954468" green="0.36649852991104126" blue="0.39495891332626343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="381" id="2Fk-Tl-L0s"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="dcy-Ia-aFn"/>
                                     <constraint firstAttribute="height" constant="64" id="swB-OG-pOj"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="381" id="uf3-Gu-Eoe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="30"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,6 +61,16 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Jaxon Stevens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isE-9e-ACJ">
+                                <rect key="frame" x="103.5" y="197.5" width="168" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="VRV-is-D9x"/>
+                                    <constraint firstAttribute="height" constant="72" id="aez-Nv-ny7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -72,8 +79,10 @@
                             <constraint firstItem="g50-jS-iL8" firstAttribute="width" secondItem="NYV-sr-YQs" secondAttribute="width" id="7Fs-U1-EnN"/>
                             <constraint firstItem="uZy-Ov-MlY" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" constant="-200" id="BCD-VL-Qew"/>
                             <constraint firstItem="uZy-Ov-MlY" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="ESE-na-BVW"/>
+                            <constraint firstItem="isE-9e-ACJ" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="Ymv-9g-kay"/>
                             <constraint firstItem="g50-jS-iL8" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" id="oe7-fD-Pwr"/>
                             <constraint firstItem="g50-jS-iL8" firstAttribute="height" secondItem="NYV-sr-YQs" secondAttribute="height" id="rwE-qk-3cb"/>
+                            <constraint firstItem="isE-9e-ACJ" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" constant="-100" id="wUX-D5-26V"/>
                             <constraint firstItem="d2k-dy-AKZ" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" id="wcf-3O-Ni1"/>
                         </constraints>
                     </view>
