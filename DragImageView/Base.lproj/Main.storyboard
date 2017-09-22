@@ -144,12 +144,10 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag an object to trash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S45-Fa-Ooe">
-                                <rect key="frame" x="67" y="97.5" width="241" height="72"/>
+                                <rect key="frame" x="79.5" y="97.5" width="216" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="72" id="Avq-cH-KUp"/>
-                                    <constraint firstAttribute="width" constant="241" id="Egr-Z6-dG7"/>
-                                    <constraint firstAttribute="height" constant="72" id="YdN-zc-Tyb"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="315" id="als-ii-E60"/>
+                                    <constraint firstAttribute="height" constant="72" id="gVi-gz-hR5"/>
+                                    <constraint firstAttribute="width" constant="216" id="rkb-2b-bX8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -159,15 +157,15 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2jx-rZ-4iK" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="B1B-po-WRH"/>
-                            <constraint firstItem="S45-Fa-Ooe" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="BFY-At-ec4"/>
                             <constraint firstItem="2jx-rZ-4iK" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" id="C2X-wg-mme"/>
+                            <constraint firstItem="S45-Fa-Ooe" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="EYc-UT-X6N"/>
                             <constraint firstItem="Z1Q-D1-MNF" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="FNS-IO-Rus"/>
                             <constraint firstItem="6Bx-mV-ino" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" constant="50" id="STB-E4-Bpx"/>
                             <constraint firstItem="6Bx-mV-ino" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" id="Y9g-nN-r81"/>
-                            <constraint firstItem="S45-Fa-Ooe" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" constant="-200" id="gOR-DB-QfR"/>
                             <constraint firstItem="Z1Q-D1-MNF" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" constant="200" id="h9y-0H-KwH"/>
                             <constraint firstItem="2jx-rZ-4iK" firstAttribute="width" secondItem="gmL-f7-IMA" secondAttribute="width" id="kFO-cu-iwR"/>
                             <constraint firstItem="wOL-Oz-FU7" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" id="o9S-gC-7Ih"/>
+                            <constraint firstItem="S45-Fa-Ooe" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" constant="-200" id="vcT-Xq-vL8"/>
                             <constraint firstItem="2jx-rZ-4iK" firstAttribute="height" secondItem="gmL-f7-IMA" secondAttribute="height" id="wRm-eY-NGW"/>
                             <constraint firstItem="wOL-Oz-FU7" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" constant="-50" id="y0g-Ip-R9y"/>
                         </constraints>
