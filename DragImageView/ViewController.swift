@@ -50,9 +50,11 @@ class ViewController: UIViewController {
         
         // Hide the car image
         carImage.isHidden = true
+       // set the image to nil 
+        self.carImage = nil
         print("carImage is now hidden")
         } else {
-            print("Car image is not hidden")
+           // print("Car image is not hidden")
         }
         
     }
@@ -62,10 +64,13 @@ class ViewController: UIViewController {
         
         // if the coffeeMugImage frame intersects with the trash can frame then execute the code below
         if (coffeeMugImage.frame.intersects(trashCan.frame)) {
+            
         coffeeMugImage.isHidden = true
+        // Set the image to nil
+        self.coffeeMugImage = nil
         print("coffeeMugImage is now hidden")
     } else {
-    print("coffeeMugImage is not hidden")
+   // print("coffeeMugImage is not hidden")
     }
     
     }
