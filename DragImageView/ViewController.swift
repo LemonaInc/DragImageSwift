@@ -35,17 +35,21 @@ class ViewController: UIViewController {
             UIControlEvents.touchDragExit)
     }
     
-    // BUTTON COLOR CHANGE FUNCTION TO CHANGE THE COLOR
-    @IBAction func buttonChangedColor(_ sender: Any) {
+    @IBAction func carImageDidTouch(_ sender: Any) {
         
-        if carImage.backgroundColor == UIColor.red {
-            carImage.backgroundColor = UIColor.blue
-        }
-        else if carImage.backgroundColor == UIColor.blue {
-            carImage.backgroundColor = UIColor.red
+        // Hide the Image when the user drags it to trash
+        if (carImage.frame.intersects(trashCan.frame)) {
             
+        carImage.isHidden = true
+        print("carImage is now hidden")
+        } else {
+            
+            print("image is not hidden")
         }
+    
+        
     }
+    
     
     
     // BUTTON DRAG EVENTS
