@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fMD-y6-0Pi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="Raleway-Regular.otf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="vYJ-WJ-Eeu">
+            <objects>
+                <viewController id="fMD-y6-0Pi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MdO-WT-5FJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="pia-dT-Gz1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NYV-sr-YQs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purpleGradient" translatesAutoresizingMaskIntoConstraints="NO" id="g50-jS-iL8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2k-dy-AKZ">
+                                <rect key="frame" x="-3" y="301.5" width="381" height="64"/>
+                                <color key="backgroundColor" red="0.99427074193954468" green="0.36649852991104126" blue="0.39495891332626343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="381" id="2Fk-Tl-L0s"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="dcy-Ia-aFn"/>
+                                    <constraint firstAttribute="height" constant="64" id="swB-OG-pOj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="381" id="uf3-Gu-Eoe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="HCg-ZO-noF" kind="show" id="l2O-d4-DC8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drag Image View " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZy-Ov-MlY">
+                                <rect key="frame" x="67" y="98" width="241" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="KAq-RT-bjA"/>
+                                    <constraint firstAttribute="height" constant="72" id="lNf-7w-BTe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g50-jS-iL8" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="1Ve-LO-3hr"/>
+                            <constraint firstItem="d2k-dy-AKZ" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="1tr-FX-oB7"/>
+                            <constraint firstItem="g50-jS-iL8" firstAttribute="width" secondItem="NYV-sr-YQs" secondAttribute="width" id="7Fs-U1-EnN"/>
+                            <constraint firstItem="uZy-Ov-MlY" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" constant="-200" id="BCD-VL-Qew"/>
+                            <constraint firstItem="uZy-Ov-MlY" firstAttribute="centerX" secondItem="NYV-sr-YQs" secondAttribute="centerX" id="ESE-na-BVW"/>
+                            <constraint firstItem="g50-jS-iL8" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" id="oe7-fD-Pwr"/>
+                            <constraint firstItem="g50-jS-iL8" firstAttribute="height" secondItem="NYV-sr-YQs" secondAttribute="height" id="rwE-qk-3cb"/>
+                            <constraint firstItem="d2k-dy-AKZ" firstAttribute="centerY" secondItem="NYV-sr-YQs" secondAttribute="centerY" id="wcf-3O-Ni1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rnX-OW-x2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271.19999999999999" y="19.340329835082461"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TzB-lb-Xub">
+            <objects>
+                <viewController id="HCg-ZO-noF" customClass="ViewController" customModule="DragImageView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8d3-QU-rTL"/>
+                        <viewControllerLayoutGuide type="bottom" id="NZe-FM-lKj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gmL-f7-IMA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purpleGradient" translatesAutoresizingMaskIntoConstraints="NO" id="2jx-rZ-4iK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Q-D1-MNF">
+                                <rect key="frame" x="-6" y="486" width="387" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="TM9-cY-oD6"/>
+                                    <constraint firstAttribute="width" constant="387" id="xfp-4j-zXb"/>
+                                </constraints>
+                                <state key="normal" image="ic_cancel_48pt">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bx-mV-ino">
+                                <rect key="frame" x="163.5" y="309.5" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="Oz8-QL-SyC"/>
+                                    <constraint firstAttribute="height" constant="48" id="yqv-aV-BQb"/>
+                                </constraints>
+                                <state key="normal" image="ic_directions_car_48pt">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2jx-rZ-4iK" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="B1B-po-WRH"/>
+                            <constraint firstItem="2jx-rZ-4iK" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" id="C2X-wg-mme"/>
+                            <constraint firstItem="Z1Q-D1-MNF" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="FNS-IO-Rus"/>
+                            <constraint firstItem="6Bx-mV-ino" firstAttribute="centerX" secondItem="gmL-f7-IMA" secondAttribute="centerX" id="STB-E4-Bpx"/>
+                            <constraint firstItem="6Bx-mV-ino" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" id="Y9g-nN-r81"/>
+                            <constraint firstItem="Z1Q-D1-MNF" firstAttribute="centerY" secondItem="gmL-f7-IMA" secondAttribute="centerY" constant="200" id="h9y-0H-KwH"/>
+                            <constraint firstItem="2jx-rZ-4iK" firstAttribute="width" secondItem="gmL-f7-IMA" secondAttribute="width" id="kFO-cu-iwR"/>
+                            <constraint firstItem="2jx-rZ-4iK" firstAttribute="height" secondItem="gmL-f7-IMA" secondAttribute="height" id="wRm-eY-NGW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carImage" destination="6Bx-mV-ino" id="Mce-qM-QXb"/>
+                        <outlet property="trashCan" destination="Z1Q-D1-MNF" id="JXf-TR-Xcz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Meq-9V-sGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="18.440779610194905"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_cancel_48pt" width="48" height="48"/>
+        <image name="ic_directions_car_48pt" width="48" height="48"/>
+        <image name="purpleGradient" width="1080" height="1080"/>
+    </resources>
+</document>
