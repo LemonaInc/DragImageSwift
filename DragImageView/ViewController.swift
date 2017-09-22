@@ -41,32 +41,46 @@ class ViewController: UIViewController {
         
     }
     
+    // Call these functions when the user clicks the defined image
     @IBAction func carImageDidTouch(_ sender: Any) {
-        
         // Hide the Image when the user drags it to trash
+        
+        // if the carImage frame intersects with the trash can frame then execute the code below
         if (carImage.frame.intersects(trashCan.frame)) {
-            
+        
+        // Hide the car image
         carImage.isHidden = true
         print("carImage is now hidden")
         } else {
-            
-            print("image is not hidden")
+            print("Car image is not hidden")
         }
-    
         
     }
     
     
+    @IBAction func coffeeMugImageDidTouch(_ sender: Any) {
+        
+        // if the coffeeMugImage frame intersects with the trash can frame then execute the code below
+        if (coffeeMugImage.frame.intersects(trashCan.frame)) {
+        coffeeMugImage.isHidden = true
+        print("coffeeMugImage is now hidden")
+    } else {
+    print("coffeeMugImage is not hidden")
+    }
     
-    // BUTTON DRAG EVENTS
+    }
+    
+// If you have more objects then two I would create an array of objects and iterate them through a for loop to check is they intersect with the trash can
+    
+    // Also currently this does not delete the object and only hides it, It would be a good idea to destroy the object for a production app as the image is still being stored in memory and just being hidden from the user in this case
+    
+    // Button Drag Event
     @objc func drag(control: UIControl, event: UIEvent) {
         
         if let center = event.allTouches?.first?.location(in: self.view) {
             control.center = center
         }
-        
-        
-        
+    
         func didReceiveMemoryWarning() {
             super.didReceiveMemoryWarning()
             // Dispose of any resources that can be recreated.

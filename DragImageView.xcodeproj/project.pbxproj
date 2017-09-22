@@ -100,8 +100,8 @@
 			children = (
 				EA4BF27A1F75B2FA00C50A26 /* AppDelegate.swift */,
 				EA4BF27C1F75B2FA00C50A26 /* ViewController.swift */,
-				EA4BF2831F75B2FA00C50A26 /* LaunchScreen.storyboard */,
 				EA4BF27E1F75B2FA00C50A26 /* Main.storyboard */,
+				EA4BF2831F75B2FA00C50A26 /* LaunchScreen.storyboard */,
 				EADC056E1F75B3A400B3100B /* Images */,
 				EADC056D1F75B39F00B3100B /* Fonts */,
 				EA4BF2811F75B2FA00C50A26 /* Assets.xcassets */,
