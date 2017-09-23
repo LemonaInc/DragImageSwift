@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var carImage: UIButton!
     @IBOutlet weak var trashCan: UIButton!
     
-    
+
     // VIEW DID LOAD
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         view.addSubview(trashCan)
         view.addSubview(carImage)
         view.addSubview(coffeeMugImage)
+    
         
         // Set the initial color of the color button
         trashCan.backgroundColor = UIColor.red
@@ -38,9 +39,12 @@ class ViewController: UIViewController {
         coffeeMugImage.addTarget(self, action: #selector(drag(control:event:)), for:
             UIControlEvents.touchDragExit)
         
+
         
     }
     
+
+
     // Call these functions when the user clicks the defined image
     @IBAction func carImageDidTouch(_ sender: Any) {
         // Hide the Image when the user drags it to trash
@@ -54,6 +58,8 @@ class ViewController: UIViewController {
         self.carImage = nil
         print("carImage is now hidden")
         } else {
+            // Center image in VC if the image is not in the trash
+            carImage.center = self.view.center
            // print("Car image is not hidden")
         }
         
@@ -70,6 +76,9 @@ class ViewController: UIViewController {
         self.coffeeMugImage = nil
         print("coffeeMugImage is now hidden")
     } else {
+    // Center image in VC if the image is not in the trash
+     coffeeMugImage.center = self.view.center
+
    // print("coffeeMugImage is not hidden")
     }
     
