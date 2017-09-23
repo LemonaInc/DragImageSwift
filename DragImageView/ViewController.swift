@@ -44,6 +44,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func checkTrash(_ sender: Any) {
+        
+        checkToSeeIfTrashIsFull()
+
+    }
     // Call this function to alert the user the item has been dragged to the trash
     func alertUserView() {
      var dragAlertView = JSSAlertView().show(self,
@@ -53,6 +58,8 @@ class ViewController: UIViewController {
         
         // Set the color theme of this JSS Alert View to white
         dragAlertView.setTextTheme(.light)
+        // Check to see if the trash is full
+        
     }
 
 
@@ -74,8 +81,34 @@ class ViewController: UIViewController {
             // Center image in VC if the image is not in the trash
             carImage.center = self.view.center
            // print("Car image is not hidden")
+            
         }
         
+    }
+    
+    // Check to see if the trash is full when the user clicks on 
+    func checkToSeeIfTrashIsFull() {
+        
+        // If both images equal nil then execute the code to show an alert screen is clear
+        if (self.carImage == nil && coffeeMugImage == nil) {
+            
+            var trashFullAlert = JSSAlertView().show(self,
+             title: "Screen Is Clear",
+             text: "You have dragged both objects to the trash and your screen is now clear!",
+             color: UIColorFromHex (0x40D98C, alpha: 1))
+             trashFullAlert.setTextTheme(.light)
+        } else {
+            
+            var trashClearAlert = JSSAlertView().show(self,
+            title: "The trash is not full yet",
+            text: "You still have to drag another object into the trash to clear your screen!",
+            color: UIColorFromHex (0xFED431, alpha: 1))
+            trashClearAlert.setTextTheme(.light)
+            
+            
+            
+        }
+
     }
     
     

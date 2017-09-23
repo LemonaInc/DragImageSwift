@@ -115,6 +115,9 @@
                                 <state key="normal" image="ic_cancel_white_48pt">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkTrash:" destination="HCg-ZO-noF" eventType="touchUpInside" id="nGP-wW-141"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bx-mV-ino">
                                 <rect key="frame" x="213.5" y="309.5" width="48" height="48"/>
