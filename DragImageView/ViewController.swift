@@ -44,8 +44,9 @@ class ViewController: UIViewController {
         
     }
     
+    // Call this func when the user clicks on the trash can
     @IBAction func checkTrash(_ sender: Any) {
-        
+        // Call the check to see if trash is full func to check the trash status
         checkToSeeIfTrashIsFull()
 
     }
@@ -104,9 +105,7 @@ class ViewController: UIViewController {
             text: "You still have to drag another object into the trash to clear your screen!",
             color: UIColorFromHex (0xFED431, alpha: 1))
             trashClearAlert.setTextTheme(.light)
-            
-            
-            
+      
         }
 
     }
