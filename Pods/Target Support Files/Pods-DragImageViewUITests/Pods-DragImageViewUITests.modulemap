@@ -1,0 +1,6 @@
+framework module Pods_DragImageViewUITests {
+  umbrella header "Pods-DragImageViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29C0557B866527E681997C29 /* Pods_DragImageViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60CE461EEDD1321D53A2B38 /* Pods_DragImageViewTests.framework */; };
+		69B339581029778A168B4BE6 /* Pods_DragImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8530CE8AE1DA71433D863D5B /* Pods_DragImageView.framework */; };
+		CB9EAEED53C1E8EC79DAE097 /* Pods_DragImageViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F19813497FAD85D6A5A07C3 /* Pods_DragImageViewUITests.framework */; };
 		EA4BF27B1F75B2FA00C50A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BF27A1F75B2FA00C50A26 /* AppDelegate.swift */; };
 		EA4BF27D1F75B2FA00C50A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BF27C1F75B2FA00C50A26 /* ViewController.swift */; };
 		EA4BF2801F75B2FA00C50A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4BF27E1F75B2FA00C50A26 /* Main.storyboard */; };
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1964C2059265DCC64442EDF2 /* Pods-DragImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragImageView/Pods-DragImageView.debug.xcconfig"; sourceTree = "<group>"; };
+		2F19813497FAD85D6A5A07C3 /* Pods_DragImageViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragImageViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B6BFDF1FC32C78DA2BB89A /* Pods-DragImageViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragImageViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragImageViewUITests/Pods-DragImageViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43ACAADEC2E1CA6737899153 /* Pods-DragImageViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragImageViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragImageViewTests/Pods-DragImageViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3FD910373879C52D1C232B /* Pods-DragImageViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragImageViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragImageViewTests/Pods-DragImageViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		8530CE8AE1DA71433D863D5B /* Pods_DragImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		978FA2720F504334C9E32731 /* Pods-DragImageViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragImageViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragImageViewUITests/Pods-DragImageViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E60CE461EEDD1321D53A2B38 /* Pods_DragImageViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragImageViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4BF2771F75B2FA00C50A26 /* DragImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4BF27A1F75B2FA00C50A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA4BF27C1F75B2FA00C50A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		EA4BF29C1F75B2FA00C50A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EADBE9141F75C9A4007B4846 /* Deadhead_Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Deadhead_Script.otf; sourceTree = "<group>"; };
 		EADC05701F75B3DA00B3100B /* Raleway-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.otf"; sourceTree = "<group>"; };
+		FC378C100871BB58CE529492 /* Pods-DragImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragImageView/Pods-DragImageView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B339581029778A168B4BE6 /* Pods_DragImageView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C0557B866527E681997C29 /* Pods_DragImageViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9EAEED53C1E8EC79DAE097 /* Pods_DragImageViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961C233C64347D3AD7A8E705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8530CE8AE1DA71433D863D5B /* Pods_DragImageView.framework */,
+				E60CE461EEDD1321D53A2B38 /* Pods_DragImageViewTests.framework */,
+				2F19813497FAD85D6A5A07C3 /* Pods_DragImageViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE5DE800915342FFB562B979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1964C2059265DCC64442EDF2 /* Pods-DragImageView.debug.xcconfig */,
+				FC378C100871BB58CE529492 /* Pods-DragImageView.release.xcconfig */,
+				43ACAADEC2E1CA6737899153 /* Pods-DragImageViewTests.debug.xcconfig */,
+				7D3FD910373879C52D1C232B /* Pods-DragImageViewTests.release.xcconfig */,
+				978FA2720F504334C9E32731 /* Pods-DragImageViewUITests.debug.xcconfig */,
+				40B6BFDF1FC32C78DA2BB89A /* Pods-DragImageViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA4BF26E1F75B2FA00C50A26 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				EA4BF28E1F75B2FA00C50A26 /* DragImageViewTests */,
 				EA4BF2991F75B2FA00C50A26 /* DragImageViewUITests */,
 				EA4BF2781F75B2FA00C50A26 /* Products */,
+				AE5DE800915342FFB562B979 /* Pods */,
+				961C233C64347D3AD7A8E705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA4BF29F1F75B2FA00C50A26 /* Build configuration list for PBXNativeTarget "DragImageView" */;
 			buildPhases = (
+				5BBCB926ABB31BE977E5662E /* [CP] Check Pods Manifest.lock */,
 				EA4BF2731F75B2FA00C50A26 /* Sources */,
 				EA4BF2741F75B2FA00C50A26 /* Frameworks */,
 				EA4BF2751F75B2FA00C50A26 /* Resources */,
+				534F86D827ACEAEC5F019D75 /* [CP] Embed Pods Frameworks */,
+				16D61E3C49E74E1A71174A73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA4BF2A21F75B2FA00C50A26 /* Build configuration list for PBXNativeTarget "DragImageViewTests" */;
 			buildPhases = (
+				F778821D79A01DCB3E14E255 /* [CP] Check Pods Manifest.lock */,
 				EA4BF2871F75B2FA00C50A26 /* Sources */,
 				EA4BF2881F75B2FA00C50A26 /* Frameworks */,
 				EA4BF2891F75B2FA00C50A26 /* Resources */,
+				F431156CE3F7E5B73C5500C0 /* [CP] Embed Pods Frameworks */,
+				783FEAEF0A04F4D1F9D4197B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA4BF2A51F75B2FA00C50A26 /* Build configuration list for PBXNativeTarget "DragImageViewUITests" */;
 			buildPhases = (
+				852073BAFBF685683BABF8B2 /* [CP] Check Pods Manifest.lock */,
 				EA4BF2921F75B2FA00C50A26 /* Sources */,
 				EA4BF2931F75B2FA00C50A26 /* Frameworks */,
 				EA4BF2941F75B2FA00C50A26 /* Resources */,
+				413C774A074874DBA29A5CA6 /* [CP] Embed Pods Frameworks */,
+				A66FE7FC04DE3AB6E27393C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +329,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D61E3C49E74E1A71174A73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragImageView/Pods-DragImageView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		413C774A074874DBA29A5CA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragImageViewUITests/Pods-DragImageViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534F86D827ACEAEC5F019D75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DragImageView/Pods-DragImageView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragImageView/Pods-DragImageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BBCB926ABB31BE977E5662E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragImageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783FEAEF0A04F4D1F9D4197B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragImageViewTests/Pods-DragImageViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852073BAFBF685683BABF8B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragImageViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66FE7FC04DE3AB6E27393C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragImageViewUITests/Pods-DragImageViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F431156CE3F7E5B73C5500C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragImageViewTests/Pods-DragImageViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F778821D79A01DCB3E14E255 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragImageViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA4BF2731F75B2FA00C50A26 /* Sources */ = {
@@ -435,6 +634,7 @@
 		};
 		EA4BF2A01F75B2FA00C50A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1964C2059265DCC64442EDF2 /* Pods-DragImageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 45J9WDN6PB;
@@ -449,6 +649,7 @@
 		};
 		EA4BF2A11F75B2FA00C50A26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC378C100871BB58CE529492 /* Pods-DragImageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 45J9WDN6PB;
@@ -463,6 +664,7 @@
 		};
 		EA4BF2A31F75B2FA00C50A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43ACAADEC2E1CA6737899153 /* Pods-DragImageViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +680,7 @@
 		};
 		EA4BF2A41F75B2FA00C50A26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3FD910373879C52D1C232B /* Pods-DragImageViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +696,7 @@
 		};
 		EA4BF2A61F75B2FA00C50A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978FA2720F504334C9E32731 /* Pods-DragImageViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 45J9WDN6PB;
@@ -507,6 +711,7 @@
 		};
 		EA4BF2A71F75B2FA00C50A26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B6BFDF1FC32C78DA2BB89A /* Pods-DragImageViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 45J9WDN6PB;

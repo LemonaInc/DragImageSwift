@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JSSAlertView
 
 class ViewController: UIViewController {
     
@@ -43,6 +44,16 @@ class ViewController: UIViewController {
         
     }
     
+    // Call this function to alert the user the item has been dragged to the trash
+    func alertUserView() {
+     var dragAlertView = JSSAlertView().show(self,
+     title: "Item Dragged To Trash",
+     text: "Item now removed from view!",
+     color: UIColorFromHex (0xFB5F68, alpha: 1))
+        
+        // Set the color theme of this JSS Alert View to white
+        dragAlertView.setTextTheme(.light)
+    }
 
 
     // Call these functions when the user clicks the defined image
@@ -56,6 +67,8 @@ class ViewController: UIViewController {
         carImage.isHidden = true
        // set the image to nil 
         self.carImage = nil
+        // Call the alert function
+        alertUserView()
         print("carImage is now hidden")
         } else {
             // Center image in VC if the image is not in the trash
@@ -74,7 +87,10 @@ class ViewController: UIViewController {
         coffeeMugImage.isHidden = true
         // Set the image to nil
         self.coffeeMugImage = nil
+        // Call the alert function
+        alertUserView()
         print("coffeeMugImage is now hidden")
+            
     } else {
     // Center image in VC if the image is not in the trash
      coffeeMugImage.center = self.view.center
